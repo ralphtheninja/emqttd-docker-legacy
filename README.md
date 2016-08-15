@@ -8,7 +8,7 @@ Builds `emqttd-docker:latest`.
 
 ### `make run`
 
-Runs `emqttd-docker:latest` with ports `1883`, `8083` and `18083`.
+Runs `emqttd-docker:latest` with ports `1883`, `8083` and `18083` and restart policy set to `'always'`.
 
 ### `make rm`
 
