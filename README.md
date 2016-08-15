@@ -2,12 +2,22 @@
 
 Repository for building a [`emqttd`](https://github.com/emqtt/emqttd) docker image.
 
-### `make`
+### `make build`
 
-```
-make build
-make run
-make rm
-make start
-make stop
-```
+Builds `emqttd-docker:latest`.
+
+### `make run`
+
+Runs `emqttd-docker:latest` with ports `1883`, `8083` and `18083`.
+
+### `make rm`
+
+Removes `emqttd` container.
+
+### `make start`
+
+Starts a stopped `emqttd` container.
+
+### `make stop`
+
+Stops `emqttd` container.
