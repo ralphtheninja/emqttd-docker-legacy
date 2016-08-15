@@ -1,8 +1,8 @@
 build:
-	docker build -t devops/emqttd:latest .
+	docker build -t emqttd-docker:latest .
 
 run:
-	docker run -d --name emqttd -p 1883:1883 -p 8083:8083 -p 18083:18083 devops/emqttd
+	docker run -d --name emqttd -p 1883:1883 -p 8083:8083 -p 18083:18083 emqttd-docker
 
 rm:
 	docker rm -f emqttd
