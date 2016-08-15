@@ -1,5 +1,5 @@
 FROM debian:jessie
-MAINTAINER Magnus Skog <magnus.skog@indentive.se>
+MAINTAINER Magnus Skog <ralphtheninja@riseup.net>
 
 RUN apt-get update
 RUN apt-get install unzip -y
