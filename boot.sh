@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cd /opt/emqttd && ./bin/emqttd start && tail -f log/emqttd_crash.log -f log/emqttd_error.log -f log/emqttd_sasl.log -f log/run_erl.log
+cd /opt/emqttd && ./bin/emqttd start && tail -F log/emqttd_crash.log -F log/emqttd_error.log -F log/emqttd_sasl.log -F log/run_erl.log
